@@ -1,3 +1,3 @@
 # nike
 
-A new Flutter project.
+Tidak sempat menyelesaikan
