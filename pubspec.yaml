@@ -1,0 +1,39 @@
+name: nike
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pin_code_fields: ^8.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/nike_logo.png
+    - assets/onboard/onboard1.png
+    - assets/onboard/onboard2.png
+    - assets/onboard/onboard3.png
+    - assets/onboard/vector1.png
+    - assets/onboard/highlight1.png
+    - assets/shoes/shoes1.png
+    - assets/shoes/shoes2.png
+    - assets/shoes/shoes3.png
+    - assets/profile/profile.png
+    - assets/google_icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/launcher/launcher.png"
